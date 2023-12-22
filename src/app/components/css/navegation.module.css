@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  background-color: #393e46;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 15px;
+  gap: 20px;
+}
+.link {
+  list-style: none;
+  text-decoration: none;
+
+}
+.link a {
+  color: aliceblue;
+  text-decoration: none;
+
+}
