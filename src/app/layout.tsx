@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Navegation from './components/Navegation'
+import Navegation from './components/navegation/Navegation'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body>
         <header>
           <Navegation />
+        
         </header>
         {children}
       </body>
