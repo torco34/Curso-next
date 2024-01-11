@@ -1,4 +1,5 @@
 import React from 'react'
+import { ListaOfPosts } from './ListaOfPosts';
 interface PostProps {
     params: {
       id: string;
@@ -8,7 +9,7 @@ interface PostProps {
 const Post = ({ params }:PostProps) => {
     const { id } = params
     return (
-        <p>Post ID: {id}</p>
+        <><ListaOfPosts/></>
     )
 }
 

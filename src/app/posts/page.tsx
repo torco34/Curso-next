@@ -1,8 +1,9 @@
 import React from 'react'
 
 const PostsPage = () => {
+
     return (
-        <div>page</div>
+        <div>page aqui se hace el feche de datos componente del servidor por defecto</div>
     )
 }
 
