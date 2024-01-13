@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import style from './css/navegation.module.css'
-import Perfil from './Perfil'
+import { IconsPerfil } from '../IconsPerfil'
 const links = [
     { label: "Inicio", route: "/" },
     { label: "Tiendo", route: "/about" },
@@ -20,7 +20,7 @@ const Navegation = () => {
                 ))}
 
             </ul>
-            <Perfil />
+            <IconsPerfil />
         </div>
     )
 }

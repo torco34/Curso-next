@@ -7,9 +7,9 @@ interface PostProps {
   }
   
 const Post = ({ params }:PostProps) => {
-    const { id } = params
+const {id} = params
     return (
-        <><ListaOfPosts/></>
+        <><ListaOfPosts   />{id}</>
     )
 }
 
